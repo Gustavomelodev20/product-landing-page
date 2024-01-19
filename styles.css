@@ -55,7 +55,7 @@ input {
 
 }
 #submit:hover {
-    background: linear-gradient(to right, orangered, orange);
+    background: linear-gradient(to right, rgb(255, 114, 62), orange);
     cursor: pointer;
     
 }
