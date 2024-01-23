@@ -22,8 +22,8 @@ header {
 }
 #nav-bar {
     position: fixed;
-    width: 98vw;
-    text-align: end;
+    width: 100%;
+    left: 80%;
 }
 #nav-bar a, #nav-bar p {
     text-decoration: none;
@@ -129,10 +129,9 @@ main {
 }
 
 @media screen and (max-width: 768px ) {
-    #nav-bar{
-        text-align: end;
-        font-size: 0.8em;
-        width: 95vw;
+    #nav-bar {
+        left: 50%;
+        font-size: 0.8rem;
     }
     header {
         height: 100px;
@@ -140,7 +139,7 @@ main {
         flex-direction: column-reverse;
     }
     header img {
-        max-width: 200px;
+        max-width: 250px;
     }
     iframe {
         width: 480px;
