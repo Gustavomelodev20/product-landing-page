@@ -130,8 +130,8 @@ main {
 
 @media screen and (max-width: 768px ) {
     #nav-bar {
-        left: 50%;
-        font-size: 0.8rem;
+        left: 40%;
+        font-size: 0.8em;
     }
     header {
         height: 100px;
@@ -139,10 +139,10 @@ main {
         flex-direction: column-reverse;
     }
     header img {
-        max-width: 250px;
+        max-width: 150px;
     }
     iframe {
-        width: 480px;
+        width: 400px;
     }
     #pricing {
         flex-direction: column;
